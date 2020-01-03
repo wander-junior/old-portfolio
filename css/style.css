@@ -10,13 +10,6 @@ a {
     color: #CFDCE3;
 }
 
-.anchor {
-    display: block;
-    height: 75px; /*same height as header*/
-    margin-top: -75px; /*same height as header*/
-    visibility: hidden;
-}
-
 /* Header */
 
 #header {
