@@ -1,0 +1,148 @@
+/* Estilos Gerais */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CFDCE3;
+}
+
+a {
+    text-decoration: none;
+    color: #CFDCE3;
+}
+
+.anchor {
+    display: block;
+    height: 75px; /*same height as header*/
+    margin-top: -75px; /*same height as header*/
+    visibility: hidden;
+}
+
+/* Header */
+
+#header {
+    position: fixed;
+    top: 0;
+    background-color: #607CF5;
+    width: 100%;
+    z-index: 10;
+}
+
+#header_menu {
+    text-align: center;
+}
+
+#header_menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#header_menu ul li a{
+    display: inline-block;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    padding:20px 0;
+}
+
+/* Apresentação */
+
+#apresentacao {
+    background-color: #CFDCE3;
+    text-align: center;
+    margin-top: 75px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#apresentacao h1{
+    color: #607CF5;
+    font-size: 48px;
+}
+
+#apresentacao h1:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #607CF5;
+    margin: 10px auto 10px auto;
+}
+
+#apresentacao h2{
+    color: #607CF5;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+/* Perfil */
+
+#perfil {
+    background-color: #607CF5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #CFDCE3;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#perfil .descricao {
+    margin: 0 auto;
+    max-width: 700px;
+    padding-bottom: 45px;
+}
+
+#perfil .descricao p{
+    line-height: 30px;
+}
+
+#perfil .habilidades {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#perfil .habilidades ul{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+#perfil .habilidades ul li, #perfil .habilidades p{
+    line-height: 40px;
+
+}
+
+/* Portfólio */
+
+#portfolio {
+    background-color: #CFDCE3;
+    text-transform: uppercase;
+    padding:40px 0;
+    width: 100%;
+}
+
+#portfolio h2 {
+    color: #607CF5;
+    font-size: 36px;
+    line-height : 40px;
+    text-align: center;
+}
+
+#portfolio h2:after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #607CF5;
+    margin: 10px auto 10px auto;
+}
+
+
+.portfolio-lista li {
+    display: inline-block;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+.portfolio-lista-imagens {
+    text-align: center;
+}

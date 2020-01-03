@@ -5,17 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Wander Júnior Cruz - Desenvolvedor Front End</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/grid.css">
 </head>
 <body>
-    <head>
-        <nav class="menu">
+
+    <header id="header">
+        <div class="container">
+            <nav id="header_menu">
+                <ul>
+                    <li><a href="#apresentacao">home</a></li>
+                    <li><a href="#perfil">perfil</a></li>
+                    <li><a href="#portfolio">portfólio</a></li>
+                    <li><a>contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="apresentacao">
+            <h1>Wander Júnior Cruz</h1>
+            <h2>Desenvolvedor Front End</h2>
+            <h2>Web Designer</h2>
+    </section>
+
+    <section id="perfil" class="container">
+        <div class="descricao">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies ipsum ac convallis pretium. Aliquam erat volutpat. Phasellus viverra arcu vestibulum magna rutrum eleifend. </p>
+        </div>
+        <div class="habilidades">
+            <p>Minhas habilidades:</p>
             <ul>
-                <li>home</li>
-                <li>perfil</li>
-                <li>portfolio</li>
-                <li>contato</li>
+                <li>HTML e CSS - Avançado</li>
+                <li>JavaScript - Intermediário</li>
+                <li>WordPress - Intermediário</li>
             </ul>
-        </nav>
-    </head>
+        </div>
+    </section>
+
+    <section id="portfolio" class="container">
+        <h2>Meus últimos trabalhos</h2>
+            <ul class="portfolio-lista">
+                <div class="portfolio-lista-imagens"><li><img src="img/larissa-maiane.jpg" alt="Loja Larissa Maiane"></li>
+                <li><img src="img/larissa-maiane.jpg" alt="Loja Larissa Maiane"></li>
+                <li><img src="img/larissa-maiane.jpg" alt="Loja Larissa Maiane"></li></div>
+            </ul>
+    </section>
 </body>
 </html>
