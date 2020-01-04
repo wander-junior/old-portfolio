@@ -18,7 +18,7 @@
                     <li><a href="#apresentacao">home</a></li>
                     <li><a href="#perfil">perfil</a></li>
                     <li><a href="#portfolio">portfólio</a></li>
-                    <li><a>contato</a></li>
+                    <li><a href="#contato">contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -30,7 +30,7 @@
             <h2>Web Designer</h2>
     </section>
 
-    <section id="perfil" class="container">
+    <section id="perfil">
         <div class="descricao">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies ipsum ac convallis pretium. Aliquam erat volutpat. Phasellus viverra arcu vestibulum magna rutrum eleifend. </p>
         </div>
@@ -44,13 +44,66 @@
         </div>
     </section>
 
-    <section id="portfolio" class="container">
+    <section id="portfolio">
         <h2>Meus últimos trabalhos</h2>
             <ul class="portfolio-lista">
-                <div class="portfolio-lista-imagens"><li><img src="img/larissa-maiane.jpg" alt="Loja Larissa Maiane"></li>
-                <li><img src="img/larissa-maiane.jpg" alt="Loja Larissa Maiane"></li>
-                <li><img src="img/larissa-maiane.jpg" alt="Loja Larissa Maiane"></li></div>
+                <div class="portfolio-lista-imagens">
+                    <li>
+                        <img src="img/larissa-maiane.jpg" alt="Loja Larissa Maiane">
+                        <div class="button"><a href="#"> Saiba mais </a></div>
+                    </li>
+                    <li>
+                        <img src="img/larissa-maiane.jpg" alt="Loja Larissa Maiane">
+                        <div class="button"><a href="#"> Saiba mais </a></div>
+
+                    </li>
+                    <li>
+                        <img src="img/larissa-maiane.jpg" alt="Loja Larissa Maiane">
+                        <div class="button"><a href="#"> Saiba mais </a></div>
+                    </li>
+                    <li>
+                        <img src="img/larissa-maiane.jpg" alt="Loja Larissa Maiane">
+                        <div class="button"><a href="#"> Saiba mais </a></div>
+                    </li>
+                    <li>
+                        <img src="img/larissa-maiane.jpg" alt="Loja Larissa Maiane">
+                        <div class="button"><a href="#"> Saiba mais </a></div>
+                    </li>
+                    <li>
+                        <img src="img/larissa-maiane.jpg" alt="Loja Larissa Maiane">
+                        <div class="button"><a href="#"> Saiba mais </a></div>
+                    </li>
+                </div>
             </ul>
     </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <form id="form_contato" class="form grid-8">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email">
+                <label for="telefone">Telefone</label>
+                <input type="text" name="telefone" id="telefone">
+                <label for="espec">Mensagem</label>
+                <textarea id="espec"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="contato_dados grid-8">
+                <h3>Dados</h3>
+                <div>
+                    <img src="img/telefone.svg" height="20" width="20">
+                    <span>+55 31 98888 4231</span>
+                </div>
+                <div>
+                    <img src="img/email.svg" height="20" width="20">
+                    <span>wanderjrcruz96@gmail.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>

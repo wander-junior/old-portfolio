@@ -18,6 +18,7 @@ a {
     background-color: #607CF5;
     width: 100%;
     z-index: 10;
+    box-shadow: 2px 2px 2px #000;
 }
 
 #header_menu {
@@ -31,8 +32,8 @@ a {
 
 #header_menu ul li a{
     display: inline-block;
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 30px;
     text-transform: uppercase;
     padding:20px 0;
 }
@@ -42,7 +43,7 @@ a {
 #apresentacao {
     background-color: #CFDCE3;
     text-align: center;
-    margin-top: 75px;
+    margin-top: 70px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -132,10 +133,98 @@ a {
 
 .portfolio-lista li {
     display: inline-block;
-    margin: 20px;
-    padding-top: 20px;
+    margin: 28px 68px;
+    padding-top: 40px;
+}
+
+.portfolio-lista li:hover img{
+    filter: brightness(0.5);
 }
 
 .portfolio-lista-imagens {
     text-align: center;
+}
+
+.button {
+    position: relative;
+    width: 220px;
+    left: 0;
+    top: -100px;
+    padding-top: 105px;
+    margin-top: -121px;
+    padding-bottom: 96px;
+    margin-bottom: -96px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+
+.button a{
+    color: #CFDCE3;
+    font-size: 18px;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+/* Contato */
+
+#contato {
+    background-color: #607CF5;
+    width: 100%;
+    padding: 40px 0;
+}
+
+#contato h2 {
+    color: #CFDCE3;
+    font-size: 36px;
+    line-height : 40px;
+    text-align: center;
+    padding-bottom:40px;
+}
+
+#contato h2:after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #CFDCE3;
+    margin: 10px auto 10px auto;
+}
+
+.form {
+	padding-right: 60px;
+}
+
+.form label{
+	display: block;
+	color: #CFDCE3;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.form input {
+	display: block;
+	width: 100%;
+	border: 4px solid #CFDCE3;
+	background: none;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 14px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contato_dados h3{
+    color:  #CFDCE3;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.contato_dados span{
+    font-size: 18px;
+    line-height: 30px;
 }
