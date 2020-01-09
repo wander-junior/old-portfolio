@@ -1,0 +1,58 @@
+/* Estilo para smartphones */
+@media only screen and (max-width: 787px){
+
+/* Header */
+
+#header_menu ul li a{
+    font-size: 18px;
+    line-height: 25px;
+    padding:25px 0;
+}
+
+#header_menu ul li {
+    margin-left: 10px;
+}
+
+/* Apresentação */
+
+#apresentacao h1{
+    font-size: 36px;
+}
+
+#apresentacao h2{
+    font-size: 18px;
+}
+
+/* Perfil */
+
+#perfil {
+    font-size: 18px;
+}
+
+#perfil .descricao p{
+    text-align: center;
+}
+
+/* portfolio */
+
+#portfolio h2 {
+    font-size: 24px;
+    line-height : 30px;
+}
+
+#portfolio h2:after {
+    width: 66px;
+}
+
+/* Contato */
+
+#contato h2 {
+    font-size: 24px;
+    line-height : 30px;
+}
+
+#contato h2:after {
+    width: 66px;
+}
+
+}
