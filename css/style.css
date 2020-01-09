@@ -257,3 +257,14 @@ a {
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+/* footer */
+
+.footer {
+    width: 100%;
+    background-color: #CFDCE3;
+    color: #607CF5;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 0;
+}
