@@ -55,4 +55,15 @@
     width: 66px;
 }
 
+/* Página individual de sites */
+
+.site {
+    margin-top: 75px;
+}
+
+.site .print {
+    background: url("/img/site-mobile.png") no-repeat center;
+    height: 500px;
+}
+
 }

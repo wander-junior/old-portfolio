@@ -325,6 +325,11 @@ a {
     color: #607CF5;
 }
 
+.site .print {
+    background: url("/img/site.jpg") no-repeat center;
+    height: 700px;
+}
+
 .site a:hover {
     color: #313154;
 }
