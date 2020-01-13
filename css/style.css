@@ -278,5 +278,60 @@ a {
     color: #607CF5;
     font-size: 14px;
     line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px 0;
+}
+
+/* Estilo para mostra de sites */
+
+.site {
+    width: 100%;
+    background-color: #CFDCE3;
+    margin-top: 85px;
+    padding-bottom: 40px;
+}
+
+.site h2 {
+    color: #607CF5;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    padding: 40px 0;
+    text-transform: uppercase;
+}
+
+.site h2:after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #607CF5;
+    margin: 10px auto 10px auto;
+}
+
+.site p{
+    color: #607CF5;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+
+.site a{
+    color: #607CF5;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #607CF5;
+}
+
+.site a:hover {
+    color: #313154;
+}
+
+/* Footer da página de mostra de site */
+
+.footer-site {
+    background-color: #607CF5;
+    color: #CFDCE3;
 }
