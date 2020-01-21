@@ -1,0 +1,373 @@
+/* Estilos Gerais */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CFDCE3;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #CFDCE3;
+}
+
+/* Header */
+
+#header {
+    position: fixed;
+    top: 0;
+    background-color: #607CF5;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 2px 2px 2px #000;
+
+}
+
+#header_menu {
+    text-align: center;
+}
+
+#header_menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#header_menu ul li:first-child {
+    margin-left: 0px;
+}
+
+#header_menu ul li a{
+    display: inline-block;
+    font-size: 1.5em;
+    line-height: 1.875;
+    text-transform: uppercase;
+    padding:20px 0;
+}
+
+#header_menu ul li a:hover{
+    color: #313154; 
+}
+
+/* Apresentação */
+
+#apresentacao {
+    background-color: #CFDCE3;
+    text-align: center;
+    width: 100%;
+    margin-top: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#apresentacao h1{
+    color: #607CF5;
+    font-size: 48px;
+}
+
+#apresentacao h1:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #607CF5;
+    margin: 10px auto 10px auto;
+}
+
+#apresentacao h2, h3{
+    color: #607CF5;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#apresentacao h3{
+    font-size: 24px;
+}
+
+
+/* Perfil */
+
+#perfil {
+    background-color: #607CF5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #CFDCE3;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#perfil .descricao {
+    margin: 0 auto;
+    max-width: 700px;
+    padding-bottom: 45px;
+}
+
+#perfil .descricao p{
+    line-height: 30px;
+}
+
+#perfil .habilidades {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#perfil .habilidades ul{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+#perfil .habilidades ul li, #perfil .habilidades p{
+    line-height: 40px;
+
+}
+
+/* Portfólio */
+
+#portfolio {
+    background-color: #CFDCE3;
+    text-transform: uppercase;
+    padding:40px 0;
+    width: 100%;
+}
+
+#portfolio h2 {
+    color: #607CF5;
+    font-size: 36px;
+    line-height : 40px;
+    text-align: center;
+}
+
+#portfolio h2:after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #607CF5;
+    margin: 10px auto 10px auto;
+}
+
+
+.portfolio-lista li {
+    display: inline-block;
+    margin: 28px 68px;
+    padding-top: 40px;
+}
+
+.portfolio-lista li:hover img{
+    filter: brightness(0.5);
+}
+
+.portfolio-lista-imagens {
+    text-align: center;
+}
+
+.button {
+    position: relative;
+    width: 220px;
+    left: 0;
+    top: -100px;
+    padding-top: 105px;
+    margin-top: -121px;
+    padding-bottom: 96px;
+    margin-bottom: -96px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+
+.button a{
+    color: #CFDCE3;
+    font-size: 18px;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+/* Contato */
+
+#contato {
+    background-color: #607CF5;
+    width: 100%;
+    padding: 40px 0;
+}
+
+#contato h2 {
+    color: #CFDCE3;
+    font-size: 36px;
+    line-height : 40px;
+    text-align: center;
+    padding-bottom:40px;
+    text-transform: uppercase;
+}
+
+#contato h2:after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #CFDCE3;
+    margin: 10px auto 10px auto;
+}
+
+.form {
+	padding-right: 60px;
+}
+
+.form label{
+	display: block;
+	color: #CFDCE3;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.form input {
+	display: block;
+	width: 100%;
+	border: 4px solid #CFDCE3;
+	background: none;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 14px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form textarea {
+	display: block;
+	width: 100%;
+	height: 120px;
+	border: 4px solid #CFDCE3;
+	background: none;
+	color: #fff;
+	padding: 7px 10px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form button {
+    border: 3px solid #CFDCE3;
+    color: #CFDCE3;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+    padding: 7px 40px;
+	background: none;
+}
+
+.form button:hover{
+    border-color: #313154;
+    color: #313154;
+}
+
+.contato_dados h3{
+    color:  #CFDCE3;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.contato_dados span{
+    font-size: 18px;
+    line-height: 30px;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nao-aparece {
+    visibility: hidden;
+    position: absolute;
+    height: 0px;
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    background-color: #CFDCE3;
+    color: #607CF5;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 0;
+}
+
+/* Estilo para mostra de sites */
+
+.site {
+    width: 100%;
+    background-color: #CFDCE3;
+    margin-top: 85px;
+    padding-bottom: 40px;
+}
+
+.site h2 {
+    color: #607CF5;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    padding: 40px 0;
+    text-transform: uppercase;
+}
+
+.site h2:after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #607CF5;
+    margin: 10px auto 10px auto;
+}
+
+.site p{
+    color: #607CF5;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+
+.site a{
+    color: #607CF5;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #607CF5;
+}
+
+.site .print {
+    background: url("../img/site.jpg") no-repeat center;
+    height: 700px;
+}
+
+.site a:hover {
+    color: #313154;
+}
+
+/* Footer da página de mostra de site */
+
+.footer-site {
+    background-color: #607CF5;
+    color: #CFDCE3;
+}
+
+/* Animação */
+
+[data-anime] {
+    opacity: 0;
+}
+
+.fadeInDown {
+    transform: translate3d(0, -20px, 0);
+}
+
+.anime {
+    opacity: 1;
+    transform: none;
+    transition: opacity 800ms, transform 800ms;
+}   
