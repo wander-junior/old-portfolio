@@ -1,5 +1,5 @@
-/* Estilo para smartphones */
-@media only screen and (max-width: 787px){
+/* Primeira quebra */
+@media screen and (max-width: 787px){
 
 /* Header */
 
@@ -66,4 +66,87 @@
     height: 500px;
 }
 
+}
+
+/* Segunda quebra */
+
+@media screen and (max-width: 355px){
+    /* Menu */
+
+    #header_menu ul li a{
+        font-size: 14px;
+        line-height: 20px;
+        padding:20px 0;
+    }
+
+    /* Apresentacao */
+
+    #apresentacao {
+        margin-top: 60px;
+
+    }
+    #apresentacao h1{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    #apresentacao h2{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    /* Perfil */
+    
+    #perfil {
+        font-size: 14px;
+    }
+
+    #perfil .descricao p{
+        line-height: 20px;
+    }
+
+    /* Portfolio */
+
+    #portfolio h2 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    /* Contato */
+
+    #contato h2 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    #contato label {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .form input {
+        padding: 5px;
+    }
+
+    .form textarea{
+        padding: 5px;   
+    }
+
+    .form button {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: .1em;
+        padding: 7px 20px;
+        background: none;
+        margin: 0 auto;
+    }
+
+    .contato_dados h3{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .contato_dados span{
+        font-size: 14px;
+        line-height: 20px;
+    }
 }
