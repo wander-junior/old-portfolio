@@ -254,6 +254,11 @@ a {
 	background: none;
 }
 
+.form button:hover{
+    border-color: #313154;
+    color: #313154;
+}
+
 .contato_dados h3{
     color:  #CFDCE3;
     text-transform: uppercase;
@@ -326,7 +331,7 @@ a {
 }
 
 .site .print {
-    background: url("/img/site.jpg") no-repeat center;
+    background: url("../img/site.jpg") no-repeat center;
     height: 700px;
 }
 
