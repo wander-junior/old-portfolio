@@ -99,7 +99,6 @@ a {
 
 #perfil .descricao {
     margin: 0 auto;
-    max-width: 700px;
     padding-bottom: 45px;
 }
 
@@ -108,7 +107,6 @@ a {
 }
 
 #perfil .habilidades {
-    width: 700px;
     margin: 0 auto;
 }
 
