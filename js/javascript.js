@@ -3,3 +3,7 @@ function addMargin() {
 }
 
 window.addEventListener('hashchange', addMargin);
+
+if(window.SimpleAnime) {
+    new SimpleAnime();
+}

@@ -33,11 +33,10 @@
     <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- Fim da favicon -->
+
     <link rel="stylesheet" href="css/style.css">
 
-    <script src="js/javascript.js"></script>
-
-    <!-- Fim da favicon -->
 
 </head>
 <body>
@@ -54,16 +53,16 @@
     </header>
 
     <section id="apresentacao" class="container">
-            <h1>Wander Júnior Cruz</h1>
-            <h2>Desenvolvedor Front End</h2>
-            <h2>Web Designer</h2>
+            <h1 data-anime="300" class="fadeInDown">Wander Júnior Cruz</h1>
+            <h2 data-anime="600" class="fadeInDown">Desenvolvedor Front End</h2>
+            <h2 data-anime="600" class="fadeInDown">Web Designer</h2>
     </section>
 
     <section id="perfil" class="container">
-        <div class="descricao" class="grid-16">
+        <div class="descricao" class="grid-16 fadeInDown" data-anime="900">
             <p>Sou um desenvolvedor de websites freelancer especializado em front end, apaixonado por tecnologia e em constante evolução. Atualmente moro em Minas Gerais.</p>
         </div>
-        <div class="habilidades" class="grid-16">
+        <div class="habilidades" class="grid-16 fadeInDown" data-anime="1200">
             <p>Minhas habilidades:</p>
             <ul>
                 <li>HTML e CSS - Avançado</li>
@@ -74,11 +73,11 @@
     </section>
 
     <section id="portfolio" class="container">
-        <h2>Meus últimos projetos</h2>
-            <ul class="portfolio-lista">
+        <h2 data-anime="1500" class="fadeInDown">Meus últimos projetos</h2>
+            <ul class="portfolio-lista fadeInDown" data-anime="1500">
                 <div class="portfolio-lista-imagens">
                     <li grid-4>
-                        <img src="img/bikcraft.png" alt="Loja Larissa Maiane">
+                        <img src="img/bikcraft.png" alt="Bikcraft">
                         <div class="button"><a href="bikcraft-sample.html"> Saiba mais </a></div>
                     </li>
                 </div>
@@ -116,5 +115,9 @@
             Site criado por Wander Júnior Cruz - Alguns direitos reservados.
         </div>
     </footer>
+
+    <script src="js/simple-anime.js"></script>
+    <script src="js/javascript.js"></script>
+
 </body>
 </html>
