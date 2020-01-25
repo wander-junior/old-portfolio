@@ -339,8 +339,17 @@ a {
 }
 
 .site .print {
-    background: url("../img/site.jpg") no-repeat center;
-    height: 700px;
+    background: url(../img/bikcraft-site.jpg) no-repeat center;
+    height: 700px
+}
+
+.site .print-2 {
+    background: url(../img/minha-bolsa-site.jpg) no-repeat center;
+    height: 525px
+}
+
+.site a:hover {
+    color: #313154
 }
 
 .site a:hover {

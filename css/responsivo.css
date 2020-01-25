@@ -62,8 +62,12 @@
 }
 
 .site .print {
-    background: url("../img/site-mobile.jpg") no-repeat center;
-    height: 500px;
+    background: url(../img/bikcraft-mobile.jpg) no-repeat center;
+    height: 500px
+}
+.site .print-2 {
+    background: url(../img/minha-bolsa-site-mobile.jpg) no-repeat center;
+    height: 500px
 }
 
 }
